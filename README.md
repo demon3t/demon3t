@@ -2,4 +2,3 @@
 
 ![](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=demon3t&theme=solarized_dark)
 ![](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=demon3t&theme=solarized_dark)   ![](https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=demon3t&theme=solarized_dark)
-![GitHub Snake dark](github-snake-dark.svg#gh-dark-mode-only)
