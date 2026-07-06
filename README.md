@@ -108,39 +108,70 @@ npm install @titanic-entity/entity-ui@beta</code></pre>
 
 ## Tech Stack
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=cs,dotnet,ts,react,nodejs,npm,githubactions,git,postgres,linux&theme=dark" alt="Tech stack icons" />
-</div>
+<p align="center">
+  <code>C#</code>
+  <code>.NET</code>
+  <code>TypeScript</code>
+  <code>React</code>
+  <code>Node.js</code>
+  <code>npm</code>
+  <code>NuGet</code>
+  <code>GitHub Actions</code>
+  <code>PostgreSQL</code>
+  <code>Linux</code>
+</p>
 
 ## Featured Work
 
-<div align="center">
-  <a href="https://github.com/demon3t/titanic-entity">
-    <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=demon3t&repo=titanic-entity&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1&icon_color=22c55e" alt="titanic-entity repository" />
-  </a>
-  <a href="https://github.com/demon3t/DistanceLine">
-    <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=demon3t&repo=DistanceLine&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1&icon_color=22c55e" alt="DistanceLine repository" />
-  </a>
-</div>
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/demon3t/titanic-entity">titanic-entity</a></h3>
+      <p>React framework workspace for Entity modules, UI primitives, demo app, and npm publishing.</p>
+      <p><code>TypeScript</code> <code>React</code> <code>npm</code> <code>GitHub Actions</code></p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/demon3t/DistanceLine">DistanceLine</a></h3>
+      <p>Engineering calculations for long-distance electrical transmission lines.</p>
+      <p><code>C#</code> <code>.NET</code> <code>Power systems</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/demon3t/FieldCalculate">FieldCalculate</a></h3>
+      <p>Calculation project focused on engineering field analysis and applied math.</p>
+      <p><code>C#</code> <code>.NET</code> <code>Engineering</code></p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/demon3t/SteadyState-via-Titanik">SteadyState-via-Titanik</a></h3>
+      <p>Steady-state analysis for complex symmetrical three-phase power systems.</p>
+      <p><code>C#</code> <code>Newton-Raphson</code> <code>Power systems</code></p>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <a href="https://github.com/demon3t/FieldCalculate">
-    <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=demon3t&repo=FieldCalculate&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1&icon_color=22c55e" alt="FieldCalculate repository" />
-  </a>
-  <a href="https://github.com/demon3t/SteadyState-via-Titanik">
-    <img height="140" src="https://github-readme-stats.vercel.app/api/pin/?username=demon3t&repo=SteadyState-via-Titanik&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1&icon_color=22c55e" alt="SteadyState-via-Titanik repository" />
-  </a>
-</div>
+## Activity Board
 
-## GitHub Activity
+<table>
+  <tr>
+    <td width="33%">
+      <h3>Code</h3>
+      <p><a href="https://github.com/demon3t?tab=repositories">Repositories</a></p>
+      <p><a href="https://github.com/demon3t/titanic-entity/actions">Release pipeline</a></p>
+    </td>
+    <td width="33%">
+      <h3>Packages</h3>
+      <p><a href="https://www.nuget.org/profiles/sadyra">NuGet profile</a></p>
+      <p><a href="https://www.npmjs.com/~demon_3t">npm profile</a></p>
+    </td>
+    <td width="33%">
+      <h3>Focus</h3>
+      <p>Engineering software with C# and TypeScript.</p>
+      <p>Entity-driven APIs, React packages, and clean automation.</p>
+    </td>
+  </tr>
+</table>
 
-<div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=demon3t&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1&icon_color=22c55e" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=demon3t&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=38bdf8&text_color=cbd5e1" alt="Top languages" />
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Engineering+software+with+C%23+and+TypeScript;Entity-driven+APIs%2C+React+packages%2C+clean+automation;Building+tools+that+make+complex+systems+feel+simple" alt="Typing animation" />
-</div>
+<p align="center">
+  <strong>Building tools that make complex systems feel simple.</strong>
+</p>
