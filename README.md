@@ -38,6 +38,74 @@ My main playground is the `Titanic` ecosystem: C#/.NET backend architecture, ent
 - Developing engineering calculation tools for power systems and electrical line analysis.
 - Keeping codebases simple, typed, testable, and comfortable to extend.
 
+## UI Modules
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>Titanic.Entity Console</h3>
+      <p>Entity metadata, ORM concepts, HTTP contracts, and typed client packages for building data-driven applications.</p>
+      <a href="https://github.com/demon3t/titanic-entity">
+        <img src="https://img.shields.io/badge/Open_repository-0f172a?style=for-the-badge&logo=github&logoColor=white&labelColor=0369a1" alt="Open titanic-entity repository" />
+      </a>
+      <a href="https://www.npmjs.com/org/titanic-entity">
+        <img src="https://img.shields.io/badge/npm_packages-beta-cb3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a" alt="Open titanic-entity npm packages" />
+      </a>
+    </td>
+    <td width="50%">
+      <h3>Engineering Lab</h3>
+      <p>Calculation tools for electrical systems, long-distance power lines, fields, and steady-state analysis.</p>
+      <a href="https://github.com/demon3t/DistanceLine">
+        <img src="https://img.shields.io/badge/DistanceLine-C%23-512bd4?style=for-the-badge&logo=csharp&logoColor=white&labelColor=0f172a" alt="DistanceLine repository" />
+      </a>
+      <a href="https://github.com/demon3t/FieldCalculate">
+        <img src="https://img.shields.io/badge/FieldCalculate-C%23-512bd4?style=for-the-badge&logo=csharp&logoColor=white&labelColor=0f172a" alt="FieldCalculate repository" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>Package Dock</h3>
+      <p>Public packages for .NET and TypeScript consumers, versioned and published through package registries.</p>
+      <a href="https://www.nuget.org/packages/Titanic.Entity">
+        <img src="https://img.shields.io/nuget/v/Titanic.Entity?style=for-the-badge&logo=nuget&logoColor=white&label=Titanic.Entity&labelColor=0f172a&color=004880" alt="Titanic.Entity NuGet version" />
+      </a>
+      <a href="https://www.nuget.org/packages/Titanic.Db">
+        <img src="https://img.shields.io/nuget/v/Titanic.Db?style=for-the-badge&logo=nuget&logoColor=white&label=Titanic.Db&labelColor=0f172a&color=004880" alt="Titanic.Db NuGet version" />
+      </a>
+    </td>
+    <td width="50%">
+      <h3>Automation Deck</h3>
+      <p>Build, typecheck, release branches, npm provenance, beta tags, and repeatable publishing through GitHub Actions.</p>
+      <a href="https://github.com/demon3t/titanic-entity/actions">
+        <img src="https://img.shields.io/badge/GitHub_Actions-release_pipeline-2088ff?style=for-the-badge&logo=githubactions&logoColor=white&labelColor=0f172a" alt="GitHub Actions release pipeline" />
+      </a>
+      <a href="https://www.npmjs.com/package/@titanic-entity/entity-react">
+        <img src="https://img.shields.io/npm/v/@titanic-entity/entity-react/beta?style=for-the-badge&logo=npm&logoColor=white&label=entity-react@beta&labelColor=0f172a&color=cb3837" alt="entity-react beta npm version" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+## Install Cards
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>.NET</h3>
+      <p>Use the backend entity layer from NuGet.</p>
+      <pre><code>dotnet add package Titanic.Entity
+dotnet add package Titanic.Db</code></pre>
+    </td>
+    <td width="50%">
+      <h3>TypeScript</h3>
+      <p>Use the React client and UI primitives from npm beta channel.</p>
+      <pre><code>npm install @titanic-entity/entity-react@beta
+npm install @titanic-entity/entity-ui@beta</code></pre>
+    </td>
+  </tr>
+</table>
+
 ## Tech Stack
 
 <div align="center">
