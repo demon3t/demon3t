@@ -22,17 +22,6 @@
 
 ## Top Languages
 
-<table align="center">
-  <tr>
-    <td align="center" width="220">
-      <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
-      <br />
-      <sub>Backend, .NET, engineering tools</sub>
-    </td>
-    <td align="center" width="220">
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-      <br />
-      <sub>React, npm packages, frontend</sub>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="./profile/top-langs.svg" alt="Top Languages" />
+</p>
