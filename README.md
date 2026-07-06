@@ -7,6 +7,12 @@
   <a href="https://github.com/demon3t?tab=followers">
     <img src="https://img.shields.io/github/followers/demon3t?style=for-the-badge&logo=github&label=Follow&color=22c55e&labelColor=0f172a" alt="GitHub followers" />
   </a>
+  <a href="https://www.nuget.org/profiles/sadyra">
+    <img src="https://img.shields.io/badge/NuGet-sadyra-004880?style=for-the-badge&logo=nuget&logoColor=white&labelColor=0f172a" alt="NuGet profile sadyra" />
+  </a>
+  <a href="https://www.npmjs.com/~demon_3t">
+    <img src="https://img.shields.io/badge/npm-demon__3t-cb3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a" alt="npm profile demon_3t" />
+  </a>
   <a href="https://www.npmjs.com/org/titanic-entity">
     <img src="https://img.shields.io/badge/npm-titanic--entity-cb3837?style=for-the-badge&logo=npm&logoColor=white&labelColor=0f172a" alt="titanic-entity npm organization" />
   </a>
@@ -70,4 +76,3 @@ My main playground is the `Titanic` ecosystem: C#/.NET backend architecture, ent
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&duration=2800&pause=900&color=38BDF8&center=true&vCenter=true&width=720&lines=Engineering+software+with+C%23+and+TypeScript;Entity-driven+APIs%2C+React+packages%2C+clean+automation;Building+tools+that+make+complex+systems+feel+simple" alt="Typing animation" />
 </div>
-
