@@ -137,10 +137,7 @@
     <circle class="particle-4" cx="-8" cy="16" r="3.5" fill="#c4b5fd"/>
   </g>
 
-  <g transform="translate(734 112)">
-    <text class="micro" x="0" y="0">SYSTEM BUILDER</text>
-    <text class="title" x="0" y="62">Danila / demon3t</text>
-    <text class="subtitle" x="0" y="102">C# / .NET, TypeScript, engineering systems</text>
-    <text class="subtitle" x="0" y="134">Entity-driven tools, packages, and automation</text>
+  <g transform="translate(734 150)">
+    <text class="title" x="0" y="0">Danila Sadyrin</text>
   </g>
 </svg>

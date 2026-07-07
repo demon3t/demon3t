@@ -2,32 +2,20 @@
   <img width="100%" src="./profile/banner.svg" alt="Danila demon3t banner" />
 </div>
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/demon3t">
-        <img src="./profile/button-github.svg" alt="GitHub" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.nuget.org/profiles/sadyra">
-        <img src="./profile/button-nuget.svg" alt="NuGet" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://www.npmjs.com/~demon_3t">
-        <img src="./profile/button-npm.svg" alt="npm" />
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/demon3t/titanic-entity">
-        <img src="./profile/button-entity.svg" alt="Titanic Entity" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/demon3t">
+    <img width="180" src="./profile/button-github.svg" alt="GitHub" />
+  </a>
+  <a href="https://www.nuget.org/profiles/sadyra">
+    <img width="180" src="./profile/button-nuget.svg" alt="NuGet" />
+  </a>
+  <a href="https://www.npmjs.com/~demon_3t">
+    <img width="180" src="./profile/button-npm.svg" alt="npm" />
+  </a>
+  <a href="https://github.com/demon3t/titanic-entity">
+    <img width="180" src="./profile/button-entity.svg" alt="Titanic Entity" />
+  </a>
+</p>
 
 ## Top Languages
 
