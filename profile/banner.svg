@@ -1,0 +1,146 @@
+<svg width="1280" height="320" viewBox="0 0 1280 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Danila demon3t animated banner</title>
+  <desc id="desc">Animated cubes with drifting particles over a deep blue gradient background.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08111f"/>
+      <stop offset="0.48" stop-color="#10294a"/>
+      <stop offset="1" stop-color="#0f7a63"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <linearGradient id="cubeA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="cubeB" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#86efac"/>
+      <stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="cubeC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <filter id="blurGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .grid { opacity: 0.12; }
+      .title { font: 700 52px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 0.5px; }
+      .subtitle { font: 500 20px 'Segoe UI', Arial, sans-serif; fill: #dbeafe; }
+      .micro { font: 600 14px 'Segoe UI', Arial, sans-serif; fill: #93c5fd; letter-spacing: 3px; }
+      .cube-a { animation: driftA 8s ease-in-out infinite; transform-origin: center; }
+      .cube-b { animation: driftB 10s ease-in-out infinite; transform-origin: center; }
+      .cube-c { animation: driftC 7.5s ease-in-out infinite; transform-origin: center; }
+      .particle-1 { animation: particleA 4s ease-in-out infinite; }
+      .particle-2 { animation: particleB 5s ease-in-out infinite; }
+      .particle-3 { animation: particleC 6s ease-in-out infinite; }
+      .particle-4 { animation: particleD 5.5s ease-in-out infinite; }
+      .trail { stroke-linecap: round; stroke-dasharray: 8 14; animation: trailFlow 5s linear infinite; }
+      @keyframes driftA {
+        0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+        50% { transform: translate(18px, -12px) rotate(2deg); }
+      }
+      @keyframes driftB {
+        0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+        50% { transform: translate(-14px, 14px) rotate(-3deg); }
+      }
+      @keyframes driftC {
+        0%, 100% { transform: translate(0px, 0px) rotate(0deg); }
+        50% { transform: translate(10px, -18px) rotate(3deg); }
+      }
+      @keyframes particleA {
+        0% { transform: translate(0px, 0px); opacity: 0; }
+        20% { opacity: 1; }
+        100% { transform: translate(85px, -36px); opacity: 0; }
+      }
+      @keyframes particleB {
+        0% { transform: translate(0px, 0px); opacity: 0; }
+        20% { opacity: 1; }
+        100% { transform: translate(110px, 24px); opacity: 0; }
+      }
+      @keyframes particleC {
+        0% { transform: translate(0px, 0px); opacity: 0; }
+        15% { opacity: 1; }
+        100% { transform: translate(-80px, -28px); opacity: 0; }
+      }
+      @keyframes particleD {
+        0% { transform: translate(0px, 0px); opacity: 0; }
+        20% { opacity: 1; }
+        100% { transform: translate(-92px, 32px); opacity: 0; }
+      }
+      @keyframes trailFlow {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: -120; }
+      }
+    </style>
+  </defs>
+
+  <rect x="8" y="8" width="1264" height="304" rx="30" fill="url(#bg)"/>
+  <rect x="8" y="8" width="1264" height="304" rx="30" stroke="rgba(148,163,184,0.22)"/>
+
+  <g class="grid">
+    <path d="M84 48H570" stroke="#94a3b8"/>
+    <path d="M60 92H612" stroke="#94a3b8"/>
+    <path d="M40 136H630" stroke="#94a3b8"/>
+    <path d="M48 180H604" stroke="#94a3b8"/>
+    <path d="M88 224H560" stroke="#94a3b8"/>
+    <path d="M132 36V260" stroke="#94a3b8"/>
+    <path d="M220 28V272" stroke="#94a3b8"/>
+    <path d="M308 40V264" stroke="#94a3b8"/>
+    <path d="M396 26V274" stroke="#94a3b8"/>
+    <path d="M484 40V262" stroke="#94a3b8"/>
+  </g>
+
+  <g filter="url(#blurGlow)">
+    <circle cx="258" cy="156" r="92" fill="url(#glow)" opacity="0.16"/>
+    <circle cx="1068" cy="92" r="110" fill="url(#glow)" opacity="0.08"/>
+  </g>
+
+  <path class="trail" d="M86 210C180 150 258 160 320 132C386 104 470 124 560 90" stroke="#67e8f9" stroke-width="4" opacity="0.5"/>
+  <path class="trail" d="M132 78C210 122 286 118 362 86C438 54 514 72 598 116" stroke="#6ee7b7" stroke-width="3" opacity="0.4"/>
+
+  <g transform="translate(118 98)" class="cube-a">
+    <polygon points="0,28 28,12 56,28 28,44" fill="url(#cubeA)"/>
+    <polygon points="0,28 28,44 28,74 0,58" fill="#0ea5e9"/>
+    <polygon points="56,28 28,44 28,74 56,58" fill="#0284c7"/>
+  </g>
+
+  <g transform="translate(236 72)" class="cube-b">
+    <polygon points="0,34 34,14 68,34 34,54" fill="url(#cubeB)"/>
+    <polygon points="0,34 34,54 34,94 0,74" fill="#10b981"/>
+    <polygon points="68,34 34,54 34,94 68,74" fill="#059669"/>
+  </g>
+
+  <g transform="translate(360 122)" class="cube-c">
+    <polygon points="0,24 24,10 48,24 24,38" fill="url(#cubeC)"/>
+    <polygon points="0,24 24,38 24,66 0,52" fill="#8b5cf6"/>
+    <polygon points="48,24 24,38 24,66 48,52" fill="#6366f1"/>
+  </g>
+
+  <g transform="translate(174 142)">
+    <circle class="particle-1" cx="0" cy="0" r="4.5" fill="#7dd3fc"/>
+    <circle class="particle-2" cx="12" cy="8" r="3.5" fill="#a7f3d0"/>
+    <circle class="particle-3" cx="36" cy="-14" r="4" fill="#c4b5fd"/>
+    <circle class="particle-4" cx="-10" cy="18" r="3" fill="#67e8f9"/>
+  </g>
+
+  <g transform="translate(310 126)">
+    <circle class="particle-2" cx="0" cy="0" r="4" fill="#a7f3d0"/>
+    <circle class="particle-1" cx="18" cy="-8" r="3" fill="#7dd3fc"/>
+    <circle class="particle-4" cx="-8" cy="16" r="3.5" fill="#c4b5fd"/>
+  </g>
+
+  <g transform="translate(734 112)">
+    <text class="micro" x="0" y="0">SYSTEM BUILDER</text>
+    <text class="title" x="0" y="62">Danila / demon3t</text>
+    <text class="subtitle" x="0" y="102">C# / .NET, TypeScript, engineering systems</text>
+    <text class="subtitle" x="0" y="134">Entity-driven tools, packages, and automation</text>
+  </g>
+</svg>

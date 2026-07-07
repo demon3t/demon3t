@@ -1,0 +1,14 @@
+<svg width="230" height="54" viewBox="0 0 230 54" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title">
+  <title id="title">Titanic Entity button</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="230" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f3f39"/>
+      <stop offset="1" stop-color="#0f766e"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="228" height="52" rx="18" fill="url(#bg)" stroke="#99f6e4" stroke-opacity="0.24"/>
+  <circle cx="31" cy="27" r="14" fill="#f0fdfa" fill-opacity="0.16"/>
+  <text x="21" y="32" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700" fill="#f8fafc">TE</text>
+  <text x="56" y="24" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Titanic Entity</text>
+  <text x="56" y="38" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#ccfbf1">project repository</text>
+</svg>
