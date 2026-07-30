@@ -1,0 +1,62 @@
+name: Задача на разработку
+description: Конкретная engineering-задача с понятным scope и проверкой.
+title: "[DEV]: "
+labels: ["enhancement"]
+projects: ["demon3t/5", "demon3t/2"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст
+      description: Зачем нужна задача и к чему она относится?
+      placeholder: "Родительская задача: #..."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Объем работ
+      description: Что нужно изменить или реализовать?
+      value: |
+        - 
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: implementation-notes
+    attributes:
+      label: Технические заметки
+      description: Пакеты, файлы, API, ограничения, важные решения.
+      placeholder: "Затрагиваемые области: ..."
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии готовности
+      description: Что должно быть выполнено, чтобы задачу можно было закрыть?
+      value: |
+        - [ ] Реализация соответствует scope
+        - [ ] Обновлены нужные тесты/документация
+        - [ ] Нет лишних изменений вне scope
+    validations:
+      required: true
+  - type: checkboxes
+    id: validation
+    attributes:
+      label: Проверка
+      options:
+        - label: Build проходит
+          required: false
+        - label: Unit/integration tests проходят
+          required: false
+        - label: Smoke-check выполнен
+          required: false
+  - type: textarea
+    id: risks
+    attributes:
+      label: Риски и миграции
+      description: Что может сломаться, нужны ли миграции, есть ли rollout/backout?
+      placeholder: "Риски: нет / ..."
+    validations:
+      required: false

@@ -1,0 +1,57 @@
+name: Реква
+description: Идея, запрос, требование или изменение, которое нужно сначала сформулировать.
+title: "[REQ]: "
+labels: ["enhancement"]
+projects: ["demon3t/5", "demon3t/2"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Опишите запрос так, чтобы из него можно было сделать рабочую задачу или набор подзадач.
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст
+      description: Почему это нужно, кто просит, где возникла потребность?
+      placeholder: "Например: сейчас пользователю приходится вручную..., из-за этого..."
+    validations:
+      required: true
+  - type: textarea
+    id: desired-outcome
+    attributes:
+      label: Желаемый результат
+      description: Что должно стать возможным после выполнения?
+      placeholder: "Пользователь может..., система должна..."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Объем
+      description: Что входит и что точно не входит?
+      value: |
+        ## Входит
+        -
+
+        ## Не входит
+        -
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Критерии готовности
+      description: Измеримые признаки, что реква удовлетворена.
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Ссылки и материалы
+      description: Макеты, заметки, обсуждения, связанные issue/PR.
+      placeholder: "- "
+    validations:
+      required: false

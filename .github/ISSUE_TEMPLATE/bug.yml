@@ -1,0 +1,76 @@
+name: Баг
+description: Ошибка, регрессия или некорректное поведение.
+title: "[BUG]: "
+labels: ["bug"]
+projects: ["demon3t/5", "demon3t/2"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание
+      description: Что сломано или работает не так?
+      placeholder: "Коротко опишите проблему."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Шаги воспроизведения
+      description: Минимальный путь, чтобы увидеть баг.
+      value: |
+        1. 
+        2. 
+        3. 
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ожидаемый результат
+      placeholder: "Что должно было произойти?"
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Фактический результат
+      placeholder: "Что произошло на самом деле?"
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Влияние
+      description: Насколько проблема критична?
+      options:
+        - Блокер
+        - Высокое
+        - Среднее
+        - Низкое
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Окружение
+      description: Версия, ОС, браузер, сервис, branch, commit SHA.
+      placeholder: "OS / browser / version / commit: ..."
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Логи, скриншоты, ссылки
+      description: Вставьте релевантные логи или приложите файлы.
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: regression
+    attributes:
+      label: Дополнительно
+      options:
+        - label: Это регрессия
+          required: false
+        - label: Есть workaround
+          required: false

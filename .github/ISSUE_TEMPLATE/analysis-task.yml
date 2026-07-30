@@ -1,0 +1,51 @@
+name: Задача на анализ
+description: Исследование, диагностика, сравнение вариантов или подготовка решения.
+title: "[ANALYSIS]: "
+labels: ["question"]
+projects: ["demon3t/5", "demon3t/2"]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Вопрос анализа
+      description: На какой конкретный вопрос должен ответить анализ?
+      placeholder: "Нужно понять, почему..., выбрать между..., оценить..."
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Контекст и исходные данные
+      description: Что уже известно, где смотреть, какие ограничения есть?
+      placeholder: "Связанные issue/PR, логи, метрики, документы..."
+    validations:
+      required: true
+  - type: textarea
+    id: tasks
+    attributes:
+      label: План анализа
+      description: Какие проверки, сравнения или эксперименты нужно провести?
+      value: |
+        - 
+        - 
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Ожидаемый артефакт
+      description: Что должно быть на выходе?
+      value: |
+        - [ ] Выводы зафиксированы в issue/comment/document
+        - [ ] Есть рекомендация или список вариантов
+        - [ ] Понятны следующие action items
+    validations:
+      required: true
+  - type: textarea
+    id: decision-criteria
+    attributes:
+      label: Критерии решения
+      description: По каким признакам будет понятно, какой вариант выбрать?
+      placeholder: "Производительность, стоимость, сложность поддержки, риск..."
+    validations:
+      required: false
